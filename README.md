@@ -1,16 +1,39 @@
-# Laptop Price Prediction
+# Project Title: Laptop Price Prediction Model using Machine Learning.
 
-## Assignment
+**Description:** Developed a machine learning model to predict the price of laptops based on their attributes. The goal was to minimize the Root Mean Squared Error (RMSE) measure when testing and comparing different models.
 
-the task is to define and train a machine learning model for predicting the price of a laptop (buynow_price column in the dataset) based on its attributes. When testing and comparing your models, aim to minimize the RMSE measure.
+**Role:** Sole developer responsible for defining, training, and evaluating the machine learning models.
 
-## Data Description
+**Technologies Used:**
+    - Python
+    - Jupyter Notebook
+    - Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+    
+**Challenges and Solutions:**
+  - Challenge: Selecting the most suitable machine learning algorithms for the task.
+  - Solution: Conducted research and experimentation to identify the algorithms that performed best for predicting laptop prices.
+  - Challenge: Ensuring the model generalizes well to unseen data and doesn't overfit.
+  - Solution: Implemented cross-validation techniques and evaluated model performance on a separate test dataset to mitigate overfitting.
 
-The dataset has already been randomly divided into the training, validation and test sets. It is stored in 3 files: train_dataset.json, val_dataset.json and test_dataset.json respectively. Each file is JSON saved in orient=’columns’ format.
+**Approaches Tested:**
+  Linear Regression
+  Decision Tree Regression
+  Random Forest Regression
+  Gradient Boosting Regression
+Results:
 
+Linear Regression: RMSE = [RMSE value]
+Decision Tree Regression: RMSE = [RMSE value]
+Random Forest Regression: RMSE = [RMSE value]
+Gradient Boosting Regression: RMSE = [RMSE value]
+Final Model:
 
-## Practicalities
+Selected [Final Model], achieving the lowest RMSE of [RMSE value].
+Model trained using the training dataset and evaluated on the test dataset to ensure generalization.
+Thought Process:
 
-Prepare a model in Jupyter Notebook using Python. Only use the training data for training the model and check the model's performance on unseen data using the test dataset to make sure it does not overfit.
-
-Ensure that the notebook reflects your thought process. It’s better to show all the approaches, not only the final one (e.g. if you tested several models, you can show all of them). The path to obtaining the final model should be clearly shown.
+Explored and preprocessed the dataset to handle missing values, categorical variables, and feature scaling.
+Experimented with different machine learning algorithms and hyperparameters to find the best-performing model.
+Visualized the performance of each model using appropriate metrics and visualizations.
+Documented all steps, insights, and decisions in the Jupyter Notebook to provide transparency and reproducibility.
+Notebook: Provide a link to the Jupyter Notebook containing the code, analysis, and results.
