@@ -5,9 +5,9 @@
 **Role:** Sole developer responsible for defining, training, and evaluating the machine learning models.
 
 **Technologies Used:**
-    - Python
-    - Jupyter Notebook
-    - Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+  - Python
+  - Jupyter Notebook
+  - Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
     
 **Challenges and Solutions:**
   - Challenge: Selecting the most suitable machine learning algorithms for the task.
@@ -16,16 +16,19 @@
   - Solution: Implemented cross-validation techniques and evaluated model performance on a separate test dataset to mitigate overfitting.
 
 **Approaches Tested:**
-  Linear Regression
-  Decision Tree Regression
-  Random Forest Regression
-  Gradient Boosting Regression
-Results:
-
-Linear Regression: RMSE = [RMSE value]
-Decision Tree Regression: RMSE = [RMSE value]
-Random Forest Regression: RMSE = [RMSE value]
-Gradient Boosting Regression: RMSE = [RMSE value]
+  - Linear Regression
+  - Decision Tree Regression
+  - Random Forest Regression
+  - Gradient Boosting Regression
+    
+**Results:**
+- Linear Regression: 
+  - R2 score 0.8391841000697197
+  - MAE 0.13505841373778849
+- Ridge Regression:
+  - R2 score 0.8341562483171016
+  - MAE 0.13682326245648682
+ 
 Final Model:
 
 Selected [Final Model], achieving the lowest RMSE of [RMSE value].
